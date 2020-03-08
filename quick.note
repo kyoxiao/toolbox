@@ -1,0 +1,3 @@
+Convert chinese file to utf-8
+
+enca -L zh_CN -x utf-8 FILENAME

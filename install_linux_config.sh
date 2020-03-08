@@ -28,6 +28,9 @@ yes | sudo apt install build-essential
 yes | sudo apt install cmake
 yes | sudo apt install ctags
 yes | sudo apt install python3-dev
+yes | sudo apt install libssl-dev
+yes | sudo apt install aptitude
+yes | sudo apt install enca
 
 ###############################################
 # vim bundles - use Vundle to manage vim plugins
