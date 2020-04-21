@@ -15,7 +15,7 @@ do
 	echo ''
 done
 
-ln -s $SCRIPT_DIR/tools ~/tools
+ln -s $SCRIPT_DIR/tools ~/toolbox
 
 mkdir -p ~/.vim/toinstall
 mkdir -p ~/.vim/plugin
