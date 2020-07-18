@@ -1,3 +1,14 @@
-Convert chinese file to utf-8
+#Convert chinese file to utf-8
 
 enca -L zh_CN -x utf-8 FILENAME
+
+# Mount additional disk in google cloud
+
+#find the disk
+sudo lsblk
+
+#format
+sudo mkfs.ext4 -m 0 -F -E lazy_itable_init=0,lazy_journal_init=0,discard /dev/sdb
+
+#mount
+sudo mount -o discard,defaults /dev/sdb /demo-mount
