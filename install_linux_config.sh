@@ -15,7 +15,7 @@ do
 	echo ''
 done
 
-ln -s $SCRIPT_DIR/tools ~/toolbox
+#ln -s $SCRIPT_DIR/tools ~/toolbox
 
 mkdir -p ~/.vim/toinstall
 mkdir -p ~/.vim/plugin
@@ -24,6 +24,7 @@ mkdir -p ~/.vim/doc
 ###############################################
 # Esstential tools
 ###############################################
+yes | sudo apt install vim
 yes | sudo apt install build-essential
 yes | sudo apt install cmake
 yes | sudo apt install ctags
