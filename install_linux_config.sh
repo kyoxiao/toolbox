@@ -24,6 +24,7 @@ mkdir -p ~/.vim/doc
 ###############################################
 # Esstential tools
 ###############################################
+yes | sudo apt install git
 yes | sudo apt install vim
 yes | sudo apt install build-essential
 yes | sudo apt install cmake
@@ -33,6 +34,11 @@ yes | sudo apt install libssl-dev
 yes | sudo apt install aptitude
 yes | sudo apt install enca
 yes | sudo apt install htop
+
+###############################################
+# set git editor
+###############################################
+git config --global core.editor "vim"
 
 ###############################################
 # vim bundles - use Vundle to manage vim plugins
