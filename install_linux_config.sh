@@ -32,6 +32,7 @@ yes | sudo apt install python3-dev
 yes | sudo apt install libssl-dev
 yes | sudo apt install aptitude
 yes | sudo apt install enca
+yes | sudo apt install htop
 
 ###############################################
 # vim bundles - use Vundle to manage vim plugins
