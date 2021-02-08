@@ -18,3 +18,10 @@ sudo timedatectl set-timezone Asia/Shanghai
 
 # unzip a japanese filename
 unzip -O sjis foo.zip
+
+# disable some shit
+sudo apt-get remove unattended-upgrades
+sudo systemctl stop apt-daily.timer
+sudo systemctl disable apt-daily.timer
+sudo systemctl disable apt-daily.service
+sudo systemctl daemon-reload
