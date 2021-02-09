@@ -25,3 +25,6 @@ sudo systemctl stop apt-daily.timer
 sudo systemctl disable apt-daily.timer
 sudo systemctl disable apt-daily.service
 sudo systemctl daemon-reload
+
+$ vim /etc/default/motd-news
+ENABLED=0
