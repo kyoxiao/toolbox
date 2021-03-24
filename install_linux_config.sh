@@ -34,6 +34,7 @@ yes | sudo apt install libssl-dev
 yes | sudo apt install aptitude
 yes | sudo apt install enca
 yes | sudo apt install htop
+yes | sudo apt install zlib1g-dev
 
 ###############################################
 # set git editor
