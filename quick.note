@@ -28,3 +28,12 @@ sudo systemctl daemon-reload
 
 $ vim /etc/default/motd-news
 ENABLED=0
+
+# Disable root login
+# delete password and lock root
+sudo passwd -dl root
+# Disable ssh login
+in /etc/ssh/sshd_config
+PermitRootLogin no
+# Restart ssh service
+systemctl restart sshd
