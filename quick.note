@@ -37,3 +37,6 @@ in /etc/ssh/sshd_config
 PermitRootLogin no
 # Restart ssh service
 systemctl restart sshd
+
+# cpu isolation
+/etc/default/grub
